@@ -126,8 +126,8 @@ class MemberRepositoryTest {
         memberRepository.save(m1);
         memberRepository.save(m2);
 
-        Optional<Member> findMember = memberRepository.findOptionalByUsername("AAA");
-        System.out.println("findMember = " + findMember);
+//        Optional<Member> findMember = memberRepository.findOptionalByUsername("AAA");
+//        System.out.println("findMember = " + findMember);
 
     }
 
